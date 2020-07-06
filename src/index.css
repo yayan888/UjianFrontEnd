@@ -1,0 +1,13 @@
+*{
+    padding: 0px; margin: 0px; 
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.card-box {
+transition: transform .2s; 
+}
+
+.card-box:hover {
+transform: scale(1.05); 
+}

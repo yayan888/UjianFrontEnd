@@ -1,0 +1,26 @@
+register
+
+syarat registrasi berhasil ketika:
+1. status error dari username, email, password, dan confirm password = false
+2. value dari checkbox = true
+
+1. username => syarat: min 6 char. hanya angka dan huruf. tidak termasuk symbol
+Kondisi helpertext dibawah input username: username valid, not valid, dan sudah terdaftar
+
+2. email => syarat tentatif
+kondisi helpertext: email valid, not valid, dan sudah terdaftar
+
+3. password => syarat: min 6 char, include symbol and number
+kondisi helpertext: 
+ - password minimal 6 digit kombinasi angka, huruf, dan symbol
+ - password sudah valid
+
+4. confirm password => syarat: sudah sama dengan password
+kondisi helpertext: 
+ - confirm password belum sama, silahkan ulangi lagi
+ - confirm password sudah sesuai
+
+note: perubahan helpertext dengan menggunakan onchange
+
+
+

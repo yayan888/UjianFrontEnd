@@ -1,0 +1,6 @@
+Home page
+1. Account Management: Login, Sign Up, Profile Setting
+2. Product Management: 
+ - product preview
+ - product detail -> product name, product, kategori, rating, deskripsi, about instruktur,
+	 requirements, 
