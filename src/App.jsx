@@ -9,10 +9,9 @@ import { LogIn, History } from './actions'
 import HomePage from "./pages/homepage";
 import Login from './pages/login'
 import Register from './pages/register'
-import AccountManagement from './pages/admin/accountManagement'
 import ProductDetails from './pages/productDetails'
 import UserCart from './pages/userCart'
-import TransactionHistoryAdmin from "./pages/admin/transactionHistoryAdmin";
+import TransactionHistoryAdmin from "./pages/transactionHistoryAdmin";
 import NotFound from './pages/404'
 import ProfileUser from "./pages/profileUser";
 import HistoryUser from "./pages/historyUser";
@@ -36,7 +35,6 @@ class App extends React.Component {
             <Route path="/" component={HomePage} exact/>
             <Route path='/login' component={Login} />
             <Route path='/register' component={Register} />
-            <Route path='/account-management' component={AccountManagement} />
             <Route path='/transaction-history-admin' dataHistory = {this.props.History} component={TransactionHistoryAdmin} />
             <Route path='*' component={NotFound}/>
           </Switch>

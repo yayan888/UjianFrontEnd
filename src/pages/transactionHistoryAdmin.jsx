@@ -1,6 +1,6 @@
 import React from 'react'
-import NavbarMaterial from '../../components/navbar'
-import Footer from '../../components/footer'
+import NavbarMaterial from '../components/navbar'
+import Footer from '../components/footer'
 import { 
     Table, 
     TableHead, 
@@ -26,7 +26,7 @@ import ErrorIcon from '@material-ui/icons/Error';
 
 import Axios from 'axios'
 import {connect} from 'react-redux'
-import {History} from '../../actions'
+import {History} from '../actions'
 
 
 class TransactionHistoryAdmin extends React.Component {
